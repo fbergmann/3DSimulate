@@ -1,0 +1,43 @@
+// Configuration File for use with Simulate3D generated: 2006-08-24 10:27
+[properties]
+sbmlModel  = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\simulateCD.config3D.xml
+texture    = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\simulateCD.config3D.jpg
+timeSeries = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\simulateCD.config3D.csv
+numSpecies = 35
+dimensions = 958 1004
+[species]
+s19 205 238 106 40 1 0.8 1 0.8 floating 0.2
+s17 339.480748711694 296 83 26 1 1 1 1 floating 0.5
+s51 216.5 17 83 26 1 1 0.8 0.8 floating 0.7
+s52 469.5 17 83 26 1 1 0.6 0.6 floating 1.8
+s6 340.480748711694 431.680722891566 81 43 1 0.6 1 0.8 floating 0.3
+s18 327.980748711694 195 106 38 1 1 1 1 floating 0.1
+s21 340.480748711694 349.5 81 43 1 0.8 0.8 1 floating 0.8
+s19 458 238 106 40 1 0.8 1 0.8 floating 0.2
+s34 22 785 110 36 1 1 1 1 floating 0.9
+s33 20 897 110 36 1 1 1 1 floating 1.1
+s32 412 896 110 36 1 1 1 1 floating 1.4
+s31 135 854.5 90 25 1 0.8 1 0.4 floating 0.4
+s30 218 950.5 90 25 1 0.8 1 0.4 floating 1
+s25 603 577 106 38 1 0.8 1 1 floating 0.1
+s23 808.5 577 73 40 1 0.6 0.8 1 floating 0.2
+s11 773 949 106 38 1 1 1 1 floating 1.5
+s12 626 949 106 38 1 1 1 1 floating 0.3
+s47 824 672.5 61 43 1 1 1 0.2 floating 0.6
+s76 822.75 820 64 40 1 1 1 0.2 floating 1.8
+s5 706.5 852 106 38 1 0.4 1 0.6 floating 0.1
+s41 772.5 757 106 40 1 0.4 1 0.6 floating 0.9
+s3 316 854.5 90 25 1 0.8 1 0.4 floating 0.5
+s2 568.5 813 81 26 1 1 1 1 floating 2
+s1 138.5 712 83 26 1 0.8 1 0.4 floating 1
+s49 606.09375 649.587214588405 130 75 1 1 1 1 floating 0.4
+s59 307.117752630405 634.587214588405 145 105 1 1 1 1 floating 0.1
+s85 196.75 519.125 140 100 1 1 1 1 floating 1.2
+s87 149.5 405.680722891566 108 95 1 1 1 1 floating 2.2
+s88 56 279.822527758117 105 100 1 1 1 1 floating 0
+s91 56 52.21875 118 133.6875 1 1 1 1 floating 0.4
+s95 321.980748711694 67.875 117 107.375 1 1 1 1 floating 1
+s99 581 52.5625 118 133 1 1 1 1 floating 0
+s103 423.625 519.125 140 100 1 1 1 1 floating 1.7
+s104 496.5 405.680722891566 108 95 1 1 1 1 floating 0.5
+s106 594 279.822527758117 105 100 1 1 1 1 floating 1.5

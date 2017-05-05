@@ -1,0 +1,23 @@
+// Configuration File for use with Simulate3D generated: 2006-08-24 10:26
+[properties]
+sbmlModel  = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\janaWolf.config3D.xml
+texture    = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\janaWolf.config3D.jpg
+timeSeries = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\janaWolf.config3D.csv
+numSpecies = 15
+dimensions = 727 862.5
+[species]
+Glucose 280 84 54 24 1 0.8 1 1 floating 0
+fructose_1_6_bisphosphate 293 202 150 24 1 0.8 1 1 floating 0
+glyceraldehyde_3_phosphate 286 314 157 24 1 0.8 1 1 floating 0
+glycerate_3_phosphate 302 438 128 24 1 0.8 1 1 floating 0
+pyruvate 333 569 57 24 1 0.8 1 1 floating 0
+Acetyladehyde 320 652 87 24 1 0.8 1 1 floating 0
+External_acetaldehyde 425 722 124 24 1 0.8 1 1 floating 0
+ATP 509 79 34 24 1 1 0.498039215686275 0.666666666666667 floating 3
+ADP 506 172 35 24 1 1 0.831372549019608 0.831372549019608 floating 1
+NAD 138 247 36 24 1 0.498039215686275 1 0.333333333333333 floating 0.5
+NADH 217 598 43 24 1 0.831372549019608 1 0.666666666666667 floating 0.5
+External_glucose 121 61 97 24 1 0.8 1 1 boundary 0
+ethanol 137 738 49 24 1 0.8 1 1 boundary 0
+Glycerol 119 319 54 24 1 0.8 1 1 boundary 0
+Sink 574 777 34 24 1 0.8 1 1 boundary 0

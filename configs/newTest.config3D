@@ -1,0 +1,14 @@
+// Configuration File for use with Simulate3D generated: 2006-08-24 10:26
+[properties]
+sbmlModel  = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\newTest.config3D.xml
+texture    = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\newTest.config3D.jpg
+timeSeries = C:\Documents and Settings\fbergman.KGI\Desktop\Simulate3D-Config\newTest.config3D.csv
+numSpecies = 6
+dimensions = 471.503471374512 376.5
+[species]
+S1 138 104 24 24 1 0.8 1 1 floating 0
+S2 234 143 24 24 1 0.8 1 1 floating 0
+S3 318 178 24 24 1 0.8 1 1 floating 0
+S4 411 212 24 24 1 0.8 1 1 floating 0
+X0 33 60 24 24 1 0.8 1 1 boundary 10
+X1 415 292 24 24 1 0.8 1 1 boundary 0

@@ -1,0 +1,1625 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created by XMLPrettyPrinter on 10/13/2005 from JDesigner 1.974 -->
+<sbml level = "2" version = "1" xmlns = "http://www.sbml.org/sbml/level2" xmlns:jd = "http://www.sys-bio.org/sbml">
+   <!--                     -->
+   <!--  Model Starts Here  -->
+   <!--                     -->
+   <model id = "untitled">
+      <annotation>
+         <jd:header>
+            <VersionHeader SBMLVersion = "1.0"/>
+            <ModelHeader Author = "Mr Untitled" ModelTitle = "untitled" ModelVersion = "0.0"/>
+         </jd:header>
+         <jd:display>
+            <SBMLGraphicsHeader BackGroundColor = "15728639"/>
+         </jd:display>
+      </annotation>
+      <listOfCompartments>
+         <compartment id = "compartment" size = "1">
+            <annotation>
+               <jd:display>
+                  <boundingBox h = "0" w = "0" x = "0" y = "0"/>
+               </jd:display>
+            </annotation>
+         </compartment>
+      </listOfCompartments>
+      <listOfSpecies>
+         <species boundaryCondition = "false" compartment = "compartment" id = "p53" initialConcentration = "1.59967">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "7915404"
+                           selectedEdgeColor = "255" x = "226" y = "359">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "p53p" initialConcentration = "0.02979">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "3497534"
+                           selectedEdgeColor = "255" x = "399" y = "359">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "mdm2" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "8388863"
+                           selectedEdgeColor = "255" x = "331" y = "531">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "arf" initialConcentration = "0.0728">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "294919"
+                           selectedEdgeColor = "255" x = "432" y = "719">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "arfmdm2" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "12254908"
+                           selectedEdgeColor = "255" x = "306" y = "723">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "p53mdm2" initialConcentration = "0.9554">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "13606911"
+                           selectedEdgeColor = "255" x = "193" y = "535">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "siah" initialConcentration = "0.00106">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "702" y = "363">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "bcatenin" initialConcentration = "2.18466">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "687" y = "721">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "siahbcatenin" initialConcentration = "0.00349">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "826" y = "359">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "Damage" initialConcentration = "10">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "311" y = "213">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "p53pmdm2" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "455" y = "413">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "atm" initialConcentration = "0.99992">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "168"
+                           selectedEdgeColor = "255" x = "197" y = "170">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "atm_p" initialConcentration = "8E-5">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "4609763"
+                           selectedEdgeColor = "255" x = "51" y = "171">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "nbs1" initialConcentration = "0.99998">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16689585"
+                           selectedEdgeColor = "255" x = "51" y = "75">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "false" compartment = "compartment" id = "nbs1_p" initialConcentration = "2E-5">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15533462"
+                           selectedEdgeColor = "255" x = "187" y = "77">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w4" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "338" y = "464">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "ARF_Gene" initialConcentration = "0.100897124488058">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "508" y = "720">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w" initialConcentration = "0.1">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "307" y = "628">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w1" initialConcentration = "0.13623830519551">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "384" y = "825">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "source" initialConcentration = "0.444059890156866">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "799" y = "721">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w3" initialConcentration = "0.1">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "796" y = "293">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w2" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "16777215"
+                           selectedEdgeColor = "255" x = "509" y = "215">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "P53_Gene" initialConcentration = "0.100897124488058">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "120" y = "359">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w5" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "518" y = "358">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w6" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "224" y = "305">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w7" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "444" y = "454">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w8" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "704" y = "307">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "SIAH_Gene" initialConcentration = "0.100897124488058">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "544" y = "358">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "Mdm2_Gene" initialConcentration = "0.100897124488058">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "543" y = "530">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "w9" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "572" y = "721">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "A1" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntCircle" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "159" y = "141">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "A2" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntCircle" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "91" y = "104">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "A3" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntCircle" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "404" y = "225">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "JI1" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntRound" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "143" y = "214">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "A4" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntCircle" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "404" y = "200">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "A5" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntCircle" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "314" y = "322">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+         <species boundaryCondition = "true" compartment = "compartment" id = "A7" initialConcentration = "0">
+            <annotation>
+               <jd:display borderType = "ntCircle" edgeColor = "0" edgeThickness = "1" fillColor = "15728639"
+                           selectedEdgeColor = "255" x = "565" y = "504">
+                  <font fontColor = "0" fontName = "Arial" fontSize = "8" fontStyle = ""/>
+               </jd:display>
+            </annotation>
+         </species>
+      </listOfSpecies>
+      <listOfReactions>
+         <reaction id = "J1" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "319" y = "341"/>
+                  <pt x = "322" y = "336"/>
+                  <pt x = "321" y = "336"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "p53p" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <plus/>
+                     <apply>
+                        <times/>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  p53 
+                           </ci>
+                           <apply>
+                              <plus/>
+                              <ci>
+                                     kp5 
+                              </ci>
+                              <ci>
+                                     p53 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <ci>
+                               atm_p 
+                        </ci>
+                     </apply>
+                     <ci>
+                            con 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "kp5" value = "0.4"/>
+                  <parameter id = "con" value = "0.0001"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J10" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "443" y = "813"/>
+                  <pt x = "454" y = "815"/>
+                  <pt x = "445" y = "833"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "arf" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "w1" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J10_k 
+                     </ci>
+                     <ci>
+                            arf 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J10_k" value = "0.3"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J7" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "384" y = "672"/>
+                  <pt x = "429" y = "590"/>
+                  <pt x = "424" y = "671"/>
+                  <pt x = "419" y = "684"/>
+                  <pt x = "424" y = "671"/>
+                  <pt x = "344" y = "673"/>
+                  <pt x = "332" y = "687"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "mdm2" stoichiometry = "1"/>
+               <speciesReference species = "arf" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "arfmdm2" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J7_k 
+                     </ci>
+                     <ci>
+                            mdm2 
+                     </ci>
+                     <ci>
+                            arf 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J7_k" value = "15"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J8" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "371" y = "774"/>
+                  <pt x = "332" y = "778"/>
+                  <pt x = "345" y = "773"/>
+                  <pt x = "397" y = "775"/>
+                  <pt x = "394" y = "777"/>
+                  <pt x = "397" y = "775"/>
+                  <pt x = "408" y = "774"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "arfmdm2" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "w1" stoichiometry = "1"/>
+               <speciesReference species = "arf" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J8_k 
+                     </ci>
+                     <ci>
+                            arfmdm2 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J8_k" value = "2"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J16" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "273" y = "480"/>
+                  <pt x = "270" y = "441"/>
+                  <pt x = "300" y = "479"/>
+                  <pt x = "302" y = "479"/>
+                  <pt x = "300" y = "479"/>
+                  <pt x = "246" y = "481"/>
+                  <pt x = "245" y = "481"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53" stoichiometry = "1"/>
+               <speciesReference species = "mdm2" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "p53mdm2" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J16_k 
+                     </ci>
+                     <ci>
+                            p53 
+                     </ci>
+                     <ci>
+                            mdm2 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J16_k" value = "1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J17" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "291" y = "590"/>
+                  <pt x = "238" y = "589"/>
+                  <pt x = "280" y = "590"/>
+                  <pt x = "302" y = "590"/>
+                  <pt x = "325" y = "580"/>
+                  <pt x = "302" y = "590"/>
+                  <pt x = "302" y = "593"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53mdm2" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "mdm2" stoichiometry = "1"/>
+               <speciesReference species = "w" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J17_k 
+                     </ci>
+                     <ci>
+                            p53mdm2 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J17_k" value = "1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J19" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "763" y = "728"/>
+                  <pt x = "762" y = "729"/>
+                  <pt x = "762" y = "729"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "source" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "bcatenin" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J19_k 
+                     </ci>
+                     <ci>
+                            source 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J19_k" value = "1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J22" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "779" y = "408"/>
+                  <pt x = "744" y = "409"/>
+                  <pt x = "743" y = "409"/>
+                  <pt x = "698" y = "425"/>
+                  <pt x = "743" y = "409"/>
+                  <pt x = "815" y = "407"/>
+                  <pt x = "814" y = "406"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "siah" stoichiometry = "1"/>
+               <speciesReference species = "bcatenin" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "siahbcatenin" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J22_k 
+                     </ci>
+                     <ci>
+                            siah 
+                     </ci>
+                     <ci>
+                            bcatenin 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J22_k" value = "3"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J23" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "772" y = "347"/>
+                  <pt x = "794" y = "347"/>
+                  <pt x = "789" y = "346"/>
+                  <pt x = "755" y = "348"/>
+                  <pt x = "754" y = "349"/>
+                  <pt x = "755" y = "348"/>
+                  <pt x = "760" y = "337"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "siahbcatenin" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "siah" stoichiometry = "1"/>
+               <speciesReference species = "w3" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J23_k 
+                     </ci>
+                     <ci>
+                            siahbcatenin 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J23_k" value = "2"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J24" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "476" y = "726"/>
+                  <pt x = "475" y = "727"/>
+                  <pt x = "475" y = "727"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "ARF_Gene" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "arf" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Pb 
+                     </ci>
+                     <ci>
+                            bcatenin 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Pb" value = "0.01"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J12" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "411" y = "220"/>
+                  <pt x = "401" y = "222"/>
+                  <pt x = "414" y = "219"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "Damage" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "w2" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Damage 
+                     </ci>
+                     <ci>
+                            p53p 
+                     </ci>
+                     <ci>
+                            nbs1_p 
+                     </ci>
+                     <ci>
+                            n 
+                     </ci>
+                     <ci>
+                            atm_p 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "n" value = "0.0008"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J27" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "322" y = "386"/>
+                  <pt x = "321" y = "392"/>
+                  <pt x = "321" y = "392"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "p53" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               PHOS 
+                        </ci>
+                        <ci>
+                               p53p 
+                        </ci>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <ci>
+                               kdep 
+                        </ci>
+                        <ci>
+                               p53p 
+                        </ci>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "PHOS" value = "1E-6"/>
+                  <parameter id = "kdep" value = "1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J28" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "429" y = "420"/>
+                  <pt x = "386" y = "422"/>
+                  <pt x = "382" y = "420"/>
+                  <pt x = "414" y = "475"/>
+                  <pt x = "382" y = "420"/>
+                  <pt x = "476" y = "420"/>
+                  <pt x = "429" y = "419"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53p" stoichiometry = "1"/>
+               <speciesReference species = "mdm2" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "p53pmdm2" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J28_k 
+                     </ci>
+                     <ci>
+                            p53p 
+                     </ci>
+                     <ci>
+                            mdm2 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J28_k" value = "0.005"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J0_9615" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "137" y = "157"/>
+                  <pt x = "136" y = "153"/>
+                  <pt x = "136" y = "154"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "atm" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "atm_p" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <plus/>
+                     <apply>
+                        <times/>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  atm 
+                           </ci>
+                           <apply>
+                              <plus/>
+                              <ci>
+                                     k1 
+                              </ci>
+                              <ci>
+                                     atm 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <ci>
+                               nbs1_p 
+                        </ci>
+                     </apply>
+                     <ci>
+                            cons1 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "k1" value = "0.01"/>
+                  <parameter id = "cons1" value = "0.0001"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "xJ139542" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "133" y = "210"/>
+                  <pt x = "134" y = "218"/>
+                  <pt x = "134" y = "218"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "atm_p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "atm" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <apply>
+                        <divide/>
+                        <ci>
+                               atm_p 
+                        </ci>
+                        <apply>
+                           <plus/>
+                           <ci>
+                                  k2 
+                           </ci>
+                           <ci>
+                                  atm_p 
+                           </ci>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <divide/>
+                        <ci>
+                               alpha 
+                        </ci>
+                        <apply>
+                           <plus/>
+                           <ci>
+                                  k0 
+                           </ci>
+                           <ci>
+                                  Damage 
+                           </ci>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "k2" value = "1"/>
+                  <parameter id = "alpha" value = "0.3"/>
+                  <parameter id = "k0" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J2_9615" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "127" y = "52"/>
+                  <pt x = "128" y = "46"/>
+                  <pt x = "128" y = "46"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "nbs1" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "nbs1_p" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <plus/>
+                     <apply>
+                        <times/>
+                        <apply>
+                           <divide/>
+                           <ci>
+                                  nbs1 
+                           </ci>
+                           <apply>
+                              <plus/>
+                              <ci>
+                                     k4 
+                              </ci>
+                              <ci>
+                                     nbs1 
+                              </ci>
+                           </apply>
+                        </apply>
+                        <ci>
+                               atm_p 
+                        </ci>
+                     </apply>
+                     <ci>
+                            cons2 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "k4" value = "0.01"/>
+                  <parameter id = "cons2" value = "0.0001"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J3" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "135" y = "111"/>
+                  <pt x = "135" y = "117"/>
+                  <pt x = "136" y = "117"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "nbs1_p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "nbs1" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <ci>
+                            nbs1_p 
+                     </ci>
+                     <apply>
+                        <plus/>
+                        <ci>
+                               k3 
+                        </ci>
+                        <ci>
+                               nbs1_p 
+                        </ci>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "k3" value = "0.1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J30" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "16777215" lineColor = "0" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "344" y = "505"/>
+                  <pt x = "345" y = "505"/>
+                  <pt x = "345" y = "505"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "mdm2" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "w4" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J30_k 
+                     </ci>
+                     <ci>
+                            mdm2 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J30_k" value = "1E-5"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J31" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "192" y = "365"/>
+                  <pt x = "192" y = "366"/>
+                  <pt x = "192" y = "366"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "P53_Gene" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "p53" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <ci>
+                         c0 
+                  </ci>
+               </math>
+               <listOfParameters>
+                  <parameter id = "c0" value = "0.8"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J32" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "447" y = "365"/>
+                  <pt x = "441" y = "366"/>
+                  <pt x = "441" y = "366"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "w5" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J5_k 
+                     </ci>
+                     <ci>
+                            p53p 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J5_k" value = "0.006"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J33" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "233" y = "339"/>
+                  <pt x = "234" y = "339"/>
+                  <pt x = "234" y = "339"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "w6" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J18_k 
+                     </ci>
+                     <ci>
+                            p53 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J18_k" value = "0.5"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J34" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "503" y = "486"/>
+                  <pt x = "500" y = "456"/>
+                  <pt x = "503" y = "464"/>
+                  <pt x = "503" y = "508"/>
+                  <pt x = "424" y = "507"/>
+                  <pt x = "503" y = "508"/>
+                  <pt x = "486" y = "487"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53pmdm2" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "mdm2" stoichiometry = "1"/>
+               <speciesReference species = "w7" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J29_k 
+                     </ci>
+                     <ci>
+                            p53pmdm2 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J29_k" value = "1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J29" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "711" y = "342"/>
+                  <pt x = "712" y = "342"/>
+                  <pt x = "712" y = "342"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "siah" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "w8" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J25_k 
+                     </ci>
+                     <ci>
+                            siah 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J25_k" value = "0.02"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J35" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "636" y = "367"/>
+                  <pt x = "633" y = "370"/>
+                  <pt x = "633" y = "365"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "SIAH_Gene" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "siah" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               P2 
+                        </ci>
+                        <apply>
+                           <power/>
+                           <ci>
+                                  p53p 
+                           </ci>
+                           <cn type = "integer">
+                                  4 
+                           </cn>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <ci>
+                               ks 
+                        </ci>
+                        <apply>
+                           <power/>
+                           <ci>
+                                  p53p 
+                           </ci>
+                           <cn type = "integer">
+                                  4 
+                           </cn>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "P2" value = "0.1"/>
+                  <parameter id = "ks" value = "10000"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J36" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "444" y = "536"/>
+                  <pt x = "439" y = "537"/>
+                  <pt x = "439" y = "537"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "Mdm2_Gene" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "mdm2" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <divide/>
+                     <apply>
+                        <times/>
+                        <ci>
+                               P1 
+                        </ci>
+                        <apply>
+                           <power/>
+                           <ci>
+                                  p53p 
+                           </ci>
+                           <cn type = "integer">
+                                  4 
+                           </cn>
+                        </apply>
+                     </apply>
+                     <apply>
+                        <plus/>
+                        <ci>
+                               kp 
+                        </ci>
+                        <apply>
+                           <power/>
+                           <ci>
+                                  p53p 
+                           </ci>
+                           <cn type = "integer">
+                                  4 
+                           </cn>
+                        </apply>
+                     </apply>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "P1" value = "0.4"/>
+                  <parameter id = "kp" value = "1"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "J37" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "633" y = "727"/>
+                  <pt x = "631" y = "728"/>
+                  <pt x = "631" y = "728"/>
+               </jd:arcSeg>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "bcatenin" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "w9" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            J26_k 
+                     </ci>
+                     <ci>
+                            bcatenin 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "J26_k" value = "0.2"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "Activator2" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "78" y = "145"/>
+                  <pt x = "78" y = "145"/>
+                  <pt x = "78" y = "145"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "imm">
+                  <listOfSymbols>
+                     <parameter name = "Activator2_k" value = "0"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "atm_p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "A2" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Activator2_k 
+                     </ci>
+                     <ci>
+                            atm_p 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Activator2_k" value = "0"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "Activator1" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "182" y = "115"/>
+                  <pt x = "182" y = "116"/>
+                  <pt x = "182" y = "116"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "imm">
+                  <listOfSymbols>
+                     <parameter name = "Activator1_k" value = "0"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "nbs1_p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "A1" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Activator1_k 
+                     </ci>
+                     <ci>
+                            nbs1_p 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Activator1_k" value = "0"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "Activator3" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "410" y = "300"/>
+                  <pt x = "411" y = "299"/>
+                  <pt x = "411" y = "299"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "imm">
+                  <listOfSymbols>
+                     <parameter name = "Activator3_k" value = "0"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "A3" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Activator3_k 
+                     </ci>
+                     <ci>
+                            p53p 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Activator3_k" value = "0"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "JI1_Inhibitor" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "240" y = "219"/>
+                  <pt x = "240" y = "220"/>
+                  <pt x = "240" y = "220"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "imm">
+                  <listOfSymbols>
+                     <parameter name = "JI1_Inhibitor_k" value = "0"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "Damage" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "JI1" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            JI1_Inhibitor_k 
+                     </ci>
+                     <ci>
+                            Damage 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "JI1_Inhibitor_k" value = "0"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "Activator4" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "310" y = "146"/>
+                  <pt x = "313" y = "148"/>
+                  <pt x = "313" y = "148"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "imm">
+                  <listOfSymbols>
+                     <parameter name = "Activator4_k" value = "0"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "nbs1_p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "A4" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Activator4_k 
+                     </ci>
+                     <ci>
+                            nbs1_p 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Activator4_k" value = "0"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "Activator_5" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "177" y = "257"/>
+                  <pt x = "71" y = "271"/>
+                  <pt x = "291" y = "251"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "imm">
+                  <listOfSymbols>
+                     <parameter name = "Activator_5_k" value = "0"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "atm_p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "A5" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Activator_5_k 
+                     </ci>
+                     <ci>
+                            atm_p 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Activator_5_k" value = "0"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+         <reaction id = "Activator7" reversible = "false">
+            <annotation>
+               <jd:arcSeg fillColor = "6587523" lineColor = "6587523" lineThickness = "1" lineType = "ltBezier"
+                          selectedLineColor = "255">
+                  <pt x = "551" y = "412"/>
+                  <pt x = "570" y = "397"/>
+                  <pt x = "571" y = "420"/>
+               </jd:arcSeg>
+               <jd:builtIn name = "imm">
+                  <listOfSymbols>
+                     <parameter name = "Activator7_k" value = "0"/>
+                  </listOfSymbols>
+               </jd:builtIn>
+            </annotation>
+            <listOfReactants>
+               <speciesReference species = "p53p" stoichiometry = "1"/>
+            </listOfReactants>
+            <listOfProducts>
+               <speciesReference species = "A7" stoichiometry = "1"/>
+            </listOfProducts>
+            <kineticLaw>
+               <math xmlns = "http://www.w3.org/1998/Math/MathML">
+                  <apply>
+                     <times/>
+                     <ci>
+                            Activator7_k 
+                     </ci>
+                     <ci>
+                            p53p 
+                     </ci>
+                  </apply>
+               </math>
+               <listOfParameters>
+                  <parameter id = "Activator7_k" value = "0"/>
+               </listOfParameters>
+            </kineticLaw>
+         </reaction>
+      </listOfReactions>
+   </model>
+</sbml>
