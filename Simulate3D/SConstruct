@@ -1,0 +1,49 @@
+import glob
+import sys
+
+if sys.platform in ['win32']:
+	sbw_target = " -DWIN32"
+	libSimulate3D	= [ "SBW", "osg", "osgDB", "osgUtil", "osgText", "osgGA" "osgViewer", "OpenThreads" ]
+elif sys.platform in ['darwin']:
+	sbw_target = "-arch i386 -DDARWIN -DLINUX -D__DARWIN_OSX__ -D__USE_OSX_AGL_IMPLEMENTATION__ -DNOMINMAX"
+	#libSimulate3D	= [ "SBW-static"]
+	libSimulate3D	= [ "SBW-static", "osg", "osgDB", "osgUtil", "osgText", "osgGA", "osgViewer", "OpenThreads"]
+	#  	GL_LIBS           = -framework OpenGL
+	#
+	#  	LINKARGS          = -framework Carbon -framework AGL
+	#  	GL_LIBS           = -framework OpenGL
+else:
+	sbw_target = " -DLINUX"
+	libSimulate3D	= [ "SBW-static", "osg", "osgDB", "osgUtil", "osgText", "osgGA", "osgViewer", "OpenThreads"]
+
+if sys.byteorder in ['little']:
+	sbw_target  = sbw_target + " -D__LITTLE_ENDIAN__"
+else:
+	sbw_target  = sbw_target + " -D__BIG_ENDIAN__"
+
+
+srcSimulate3D 	= Split( glob.glob("./*.cpp") )
+srcSimulate3DLib 	= Split( glob.glob("./*.cpp") )
+include 	= [ "/include/c++/4.0.0", "./include/SBW", "./include", "/usr/local/include", "../core/include", "../OpenSceneGraph/include/" ]
+# "/usr/include",
+
+libPath		= [ ".", "/usr/lib", "/usr/local/lib", "../core/lib/", "../OpenSceneGraph/lib/" ]
+compileFlags 	= "-D_GNU_SOURCE -DOPEN_THREAD "
+if ARGUMENTS == {}:
+	print "building SBW RELEASE"
+	compileFlags 	= compileFlags + sbw_target
+else:
+	print "building SBW DEBUG"
+	compileFlags 	= compileFlags + sbw_target + "-g  -D_DEBUG"
+
+print  sys.platform
+env 		= Environment( CXX = "g++", CCFLAGS = compileFlags, CPPPATH = include)
+#if sys.platform in ['darwin']:
+#frameworks = [ "Carbon", "AGL", "osg", "osgDB", "osgUtil", "osgText", "osgGA", "osgViewer", "OpenThreads"]
+frameworks = []
+env.Program( target = "./bin/Simulate3D", source = srcSimulate3D, LIBS = libSimulate3D, LIBPATH = libPath, FRAMEWORKS = frameworks )
+env2 		= Environment( CXX = "g++", CCFLAGS = compileFlags, CPPPATH = include)
+env2.Library( target = "./lib/Simulate3D-static", source = srcSimulate3DLib, LIBS = libSimulate3D, LIBPATH = libPath, FRAMEWORKS = frameworks )
+#else:
+#	env.Program( target = "./bin/Simulate3D", source = srcSimulate3D, LIBS = libSimulate3D, LIBPATH = libPath )
+#	env.Library( target = "./lib/Simulate3D-static", source = srcSimulate3DLib, LIBS = libSimulate3D, LIBPATH = libPath )

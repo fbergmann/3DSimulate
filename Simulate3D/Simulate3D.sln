@@ -1,0 +1,25 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Simulate3D", "Simulate3D.vcproj", "{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		debug_lib|Win32 = debug_lib|Win32
+		Debug|Win32 = Debug|Win32
+		release_lib|Win32 = release_lib|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}.debug_lib|Win32.ActiveCfg = debug_lib|Win32
+		{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}.debug_lib|Win32.Build.0 = debug_lib|Win32
+		{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}.Debug|Win32.ActiveCfg = Debug|Win32
+		{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}.Debug|Win32.Build.0 = Debug|Win32
+		{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}.release_lib|Win32.ActiveCfg = release_lib|Win32
+		{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}.release_lib|Win32.Build.0 = release_lib|Win32
+		{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}.Release|Win32.ActiveCfg = Release|Win32
+		{C2BB84BA-5CC2-41A4-9EE3-4EDD6397D44E}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
